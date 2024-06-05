@@ -1,0 +1,31 @@
+header{
+    display: flex; 
+    justify-content: space-around;            
+    width: 100%;
+    padding: 10px 0px ;
+    /* border: 2px solid green;  */
+    /* position: sticky ; */
+    /* background-color: rgba(19, 62, 135, 0.839); */
+    z-index: 1;
+    position: fixed;
+    border-bottom: 2px solid ;
+    background-color: rgb(17 21 30 / 51%);
+}
+#logo{
+    /* border: 2px solid yellow; */
+    padding: 10px 0px ;
+}
+nav{
+    display: flex; 
+    justify-content: space-around;
+    width: 40%;
+    padding: 10px 0px ;
+    /* border: 2px solid yellow; */
+}
+nav a{
+    /* border: 2px solid orange; */
+    padding: 0px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: orange;
+}
